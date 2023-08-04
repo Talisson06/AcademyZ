@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family= Sofadi +One & display=swap");
+.Header {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Header img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 205px;
+}
+
+.Nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.Nav_List {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  font-family: "Sofadi One";
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.Nav_List a {
+  text-decoration: none;
+  color: #F8F8FF;
+  padding: 50px;
+}
+
+.Button_Direct_Register {
+  width: 115px;
+  height: 50px;
+  margin-right: 200px;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #B42B2B;
+  color: #F8F8FF;
+  font-family: "Sofadi One";
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */

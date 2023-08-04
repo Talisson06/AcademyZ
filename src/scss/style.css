@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family= Sofadi +One & display=swap");
+@import url("https://fonts.googleapis.com/css2?family= Sofadi +One & display=swap");
+.Div_Hero {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Presentation {
+  width: 50%;
+  height: 100%;
+  text-transform: uppercase;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 1rem;
+  font-family: "Caveat Brush";
+  max-width: 610px;
+  color: #F8F8FF;
+  margin-top: 50px;
+  padding-bottom: 2px;
+}
+
+.Sub_Title {
+  font-size: 0.9rem;
+  font-family: "Caveat Brush";
+  width: 610px;
+  color: #F8F8FF;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.Text {
+  font-size: 0.7rem;
+  font-family: "Sofadi One";
+  width: 570px;
+  color: #F8F8FF;
+  padding-bottom: 30px;
+  line-height: 1.5rem;
+}
+
+.Button_Direct {
+  width: 115px;
+  height: 50px;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #B42B2B;
+  color: #F8F8FF;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Banner_Img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.Header {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Header img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.Nav_List {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  font-family: "Sofadi One";
+  font-size: 2rem;
+}
+
+.Nav_List a {
+  text-decoration: none;
+  color: #F8F8FF;
+  padding: 50px;
+}
+
+.Button_Direct_Register {
+  width: 115px;
+  height: 50px;
+  margin-right: 200px;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #B42B2B;
+  color: #F8F8FF;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #4b9093;
+}
+
+#Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
