@@ -1,19 +1,25 @@
-@import './partials/colors';
-@import './partials/variables';
-@import './components/hero.scss';
-@import './components/header.scss';
+@import './partials/_colors';
+@import './partials/_variables';
+@import './components/_hero.scss';
+@import './components/_header.scss';
+@import './components/_animatedText.scss';
+@import './components/differentials';
+@import './components/plain';
+@import './components/entry';
+@import './components/footer';
 
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
 }
 body{
     width: 100vw;
     height : 100vh;
     background-color: $bg-color;
+    overflow-x: hidden;
 }
 #Container{
     
@@ -24,4 +30,6 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+
 

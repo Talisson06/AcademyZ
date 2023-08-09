@@ -58,6 +58,7 @@
 .Banner_Img {
   max-width: 100%;
   height: 100%;
+  z-index: 100;
 }
 
 .Header {
@@ -73,6 +74,8 @@
   max-height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  margin-left: 205px;
+  margin-top: 15px;
 }
 
 .Nav {
@@ -87,13 +90,21 @@
   align-items: center;
   list-style: none;
   font-family: "Sofadi One";
-  font-size: 2rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
 }
 
 .Nav_List a {
   text-decoration: none;
   color: #F8F8FF;
   padding: 50px;
+}
+
+a:hover {
+  color: #B42B2B;
+  text-decoration: underline;
+  scale: 1.3;
+  transition: 0.5s;
 }
 
 .Button_Direct_Register {
@@ -104,21 +115,263 @@
   border-radius: 50px 50px 50px 50px;
   background-color: #B42B2B;
   color: #F8F8FF;
+  font-family: "Sofadi One";
+  text-transform: uppercase;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.Carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #B42B2B;
+}
+
+.Container_Carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  color: #F8F8FF;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-left: 20px;
+}
+
+.Alternes {
+  margin-left: 20px;
+  transform: rotate(-135.2deg);
+}
+
+.Differentials {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title_Differentials {
+  margin: 30px 0;
+  font-size: 1.5rem;
+  font-family: "Sofadi One";
+  color: #F8F8FF;
+  margin: 100px 0;
+  text-transform: uppercase;
+}
+
+.Card_Differentials {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.Card_Differentials .Card {
+  width: 300px;
+  height: 400px;
+  border: none;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+}
+.Card_Differentials .Icone {
+  width: 90px;
+  height: 90px;
+}
+.Card_Differentials .Title_Card {
+  max-width: 262px;
+  font-size: 0.9rem;
+  font-family: "Sofadi One";
+  color: #F8F8FF;
+  margin: 18px 0;
+}
+.Card_Differentials p {
+  font: 0.8rem;
+  color: #F8F8FF;
+  max-width: 285px;
+  height: 108px;
+  line-height: 25px;
+}
+.Card_Differentials .Btn_Dif {
+  width: 234px;
+  height: 54px;
+  border-radius: 50px;
+  border: none;
+  background-color: #B42B2B;
+  color: #F8F8FF;
+  text-transform: uppercase;
+  margin-top: 70px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+.Card_Differentials .Btn_IMG {
+  width: 35px;
+  height: 40px;
+}
+.Card_Differentials .Card:hover {
+  background-color: #F59A73;
+  transition: 0.8s;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+.Card_Differentials .Card:hover .Btn_Dif {
+  background: rgba(211, 64, 64, 0.5);
+}
+
+.Plain {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(180, 43, 43, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title_Plain {
+  font-size: 1.5rem;
+  font-family: "Sofadi One";
+  color: #F8F8FF;
+  margin: 50px 0;
+}
+
+.Plain img {
+  width: 370px;
+  height: 200px;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.Cards_Plain {
+  background-color: #4b9093;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.Cards_Plain h2 {
+  padding: 2px;
+  font-size: 1rem;
+  display: none;
+  text-transform: uppercase;
+  color: #F8F8FF;
+}
+.Cards_Plain h3 {
+  background-color: #F59A73;
+  color: #F8F8FF;
+  font-family: "Sofadi One";
+  font-size: 1.25rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.Cards_Plain button {
+  background-color: #B42B2B;
+  border: none;
+  border-radius: 10px;
+  color: #F8F8FF;
+  font-family: "Sofadi One";
+  padding: 10px;
+  width: 135px;
+  height: 40px;
+}
+.Cards_Plain p {
+  width: 155px;
+  font-size: 1rem;
+}
+.Cards_Plain .Sub_Card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  color: #F8F8FF;
+  font-family: "Sofadi One";
+}
+
+.Cards_Plain:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+.Cards_Plain:hover h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #B42B2B;
+}
+
+.Entry {
+  width: 100%;
+  color: #F8F8FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .Links_Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+footer .Links_Text a {
+  text-decoration: none;
+  color: #F8F8FF;
+  font-size: 1.2rem;
+}
+footer a:hover {
+  color: #B42B2B;
+  text-decoration: underline;
+  scale: 1.05;
+}
+footer .Social_Icons {
+  width: 330px;
+  height: 30px;
+  margin: 30px 0;
+  display: flex;
+  gap: 70px;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+footer img:hover {
+  scale: 1.3;
+  transition: 1.5s;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #4b9093;
+  background-color: #0C2135;
+  overflow-x: hidden;
 }
 
 #Container {

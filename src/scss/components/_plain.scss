@@ -1,0 +1,99 @@
+.Plain{
+    width: 100%;
+    height: 100%;
+
+    background-color: $bg-color-secundary;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title_Plain{
+    font-size: 1.5rem;
+    font-family: $font-pincinpal;
+    color: $text-color;
+    margin: 50px 0;
+}
+
+.Plain img{
+    width: 370px;
+    height: 200px;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.Cards_Plain{
+    background-color: $bg-color-card;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+
+    h2{
+        padding: 2px;
+        font-size: 1rem;
+        display: none;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+    
+
+     h3{
+        background-color: $hover-color-cards;
+        color: $text-color;
+        font-family: $font-pincinpal;
+        font-size: 1.25rem;
+        padding: 10px;
+        text-transform: uppercase;
+
+        
+    }
+
+     button{
+        background-color: $button-color;
+        border: none;
+        border-radius: 10px;
+        color: $text-color;
+        font-family: $font-pincinpal;
+        padding: 10px;
+        width: 135px;
+        height: 40px;
+    }
+    p{
+        width: 155px;
+        font-size: 1rem;
+    }
+
+    .Sub_Card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 10px;
+        color: $text-color;
+        font-family: $font-pincinpal;
+        
+    }
+}
+.Cards_Plain:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    
+    
+
+    h2{
+        display: flex;
+        justify-content: center;
+        background-color: $button-color;
+        
+    }
+    
+}
+

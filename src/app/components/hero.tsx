@@ -1,5 +1,4 @@
 import '@/scss/style.scss'
-import { Header } from './header';
 
 
 export const Hero = () => {
@@ -28,7 +27,9 @@ export const Hero = () => {
 
                 <div className='Banner_Img'>
                     <img src="/imgs/banner-teste-2.png" alt="banner" />
+                    
                 </div>
+                
         </main>
     );
 }

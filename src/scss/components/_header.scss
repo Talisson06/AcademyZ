@@ -1,5 +1,5 @@
 @import '../partials/_colors.scss';
-@import '../partials/variables';
+@import '../partials/_variables';
 
 
 
@@ -16,6 +16,7 @@
     max-height: 100%;
     object-fit: contain;
     margin-left: 205px;
+    margin-top: 15px;
     
 }
 
@@ -41,8 +42,16 @@
     text-decoration: none;
     color: $text-color;
     padding: 50px;   
-     
+    
 }
+a:hover{
+    color: $button-color;
+    text-decoration: underline;
+    scale: 1.3;
+    transition: 0.5s;
+ }
+
+
 .Button_Direct_Register{
     width: 115px;
     height: 50px;

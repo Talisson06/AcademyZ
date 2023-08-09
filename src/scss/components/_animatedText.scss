@@ -1,0 +1,27 @@
+.Carousel{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  background-color: $button-color;
+  
+}
+
+.Container_Carousel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  color: $text-color;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-left: 20px;
+}
+
+.Alternes{
+  margin-left: 20px;
+  transform: rotate(-135.2deg);
+}
