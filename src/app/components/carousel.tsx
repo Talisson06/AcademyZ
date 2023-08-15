@@ -9,13 +9,13 @@ export const Carousel = () =>{
                     <img className= 'Alternes'src="/imgs/academia.png" alt=""  />
                     <span>Consultoria Individual</span>
                     <img className= 'Alternes'src="/imgs/academia.png" alt=""  />
-                    <span>+15 unidades</span>
+                    <span>+100 professores</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
                     <span>Montamos seu treino</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
                     <span>Treine da sua fomra</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
-                    <span>+20 professores</span>
+                    <span>+10 unidades</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
 
                 </div> 
