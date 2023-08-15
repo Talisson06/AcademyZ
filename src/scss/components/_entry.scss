@@ -1,11 +1,96 @@
 .Entry{
-    width: 100%;
+    
     color: $text-color;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 450px;
+    
+    
+        
+    
+    img{
+        margin-top: 10px;
+        width: 100%;
+        height: 450px;
+    
+    }
 
+    .Text_Entry{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    } 
+    .Title_Entry h2{
+        max-width: 550px;
+        line-height: 75px;
+        margin-bottom: 1.5rem;
+
+        text-align: center;
+        font-size: 3rem;
+        font-family: $font-pincinpal;
+        text-transform: uppercase;
+    }
+
+    .Paragraph{
+        
+        width: 520px;
+        height: 115px;
+        margin-bottom: 2rem;
+
+        text-align: left;
+        font-size: 1.2rem;
+        line-height: 30px;
+        font-family: $font-pincinpal;
+
+
+       
+    }
+
+    .Data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        width: 560px;
+        gap: 10px;
+        
+    }
+    .Paragraph_Data{
+        display: flex;
+        flex-direction: column;
+        font-family: $font-pincinpal;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    .Paragraph_Data h4{
+        font-size: 1.3rem;
+        font-weight: 600;
+        ;
+        
+    }
+    .Paragraph_Data p{
+        
+        width: 170px;
+        height: 120px;
+        font-size: 1rem;
+        line-height: 25px;
+        text-align: left;
+        padding: 10px;
+        
+    }
     
 }
+

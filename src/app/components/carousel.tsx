@@ -5,17 +5,21 @@ export const Carousel = () =>{
     return(
         <section className='Carousel'>
                 <div className='Container_Carousel' id='Carousel_Text'>
-                    <span>Consultoria Individual</span>
+
                     <img className= 'Alternes'src="/imgs/academia.png" alt=""  />
                     <span>Consultoria Individual</span>
+                    <img className= 'Alternes'src="/imgs/academia.png" alt=""  />
+                    <span>+15 unidades</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
-                    <span>Consultoria Individual</span>
+                    <span>Montamos seu treino</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
-                    <span>Consultoria Individual</span>
+                    <span>Treine da sua fomra</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
-                    <span>Consultoria Individual</span>
+                    <span>+20 professores</span>
                     <img className= 'Alternes' src="/imgs/academia.png" alt="" />
-                </div>
+
+                </div> 
+              
         </section>
     );
 

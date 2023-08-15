@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
 
-    background-color: $bg-color-secundary;
+    //background-color: $bg-color-secundary;
     
     display: flex;
     flex-direction: column;
@@ -66,6 +66,7 @@
         padding: 10px;
         width: 135px;
         height: 40px;
+        cursor: pointer;
     }
     p{
         width: 155px;

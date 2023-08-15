@@ -4,11 +4,11 @@ export const Differentials = () => {
     return(
         <section className="Differentials">
 
-             <div className="Title_Differentials">
+             <div className="Title_Differentials" data-aos="flip-down">
                 <h1>Nossos Diferenciais</h1>
              </div>
 
-             <div className="Card_Differentials">
+             <div className="Card_Differentials" data-aos="flip-up">
 
                 <div className='Card'>
                     <img className = "Icone" src="/imgs/icone-peso-2.png" alt="" />

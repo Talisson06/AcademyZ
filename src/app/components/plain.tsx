@@ -3,7 +3,7 @@ import '@/scss/style.scss';
 export const Plain = () =>{
 
     return(
-        <section className='Plain'>
+        <section className='Plain' data-aos="fade-up">
 
             <div className='Title_Plain'>
                 <h1>Planos</h1>

@@ -2,7 +2,7 @@ import '@/scss/style.scss'
 
 export const Header = () =>{
     return(
-            <header className="Header">
+            <header className="Header" data-aos="fade-up-right" >
                 
                 <img src="/imgs/Logo-2.png" alt="Meu logo" />
                 <nav className='Nav'>
@@ -25,9 +25,10 @@ export const Header = () =>{
                     
                 </nav>
                 
+
             </header>
 
-        
+     
         
     );
 }

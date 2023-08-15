@@ -1,3 +1,4 @@
+'use client';
 import '@/scss/style.scss';
 import { Hero } from './components/hero';
 import { Header } from './components/header';
@@ -8,10 +9,18 @@ import { Maps } from './components/maps';
 import { Footer } from './components/footer';
 import { Entry } from './components/entry';
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 
 export default function Home() {
+
+  useEffect(()=>{
+    AOS.init({duration: 3000})
+}, [])
   return (
     <div>
         <Header/>

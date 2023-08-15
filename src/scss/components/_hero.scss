@@ -1,14 +1,25 @@
 @import '../partials/_colors.scss';
 
 
-.Div_Hero{
+.Hero{
     
-    width: 100%;
+    
+    max-width: 1440px;
     height: 50%;
-
+    padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    
+
+    img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        z-index: 1;
+    }
 }
 
 .Presentation{
@@ -57,9 +68,9 @@
     font-size: 1rem;
     cursor: pointer;
 }
-.Banner_Img{
-    max-width: 100%;
-    height: 100%;
-    z-index: 100;
-    
+
+
+.Button_Direct:hover{
+    scale: 1.2;
+    transition: 0.8s;
 }
