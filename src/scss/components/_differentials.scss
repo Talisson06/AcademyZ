@@ -96,3 +96,25 @@
     }
 }
 
+
+@media screen and (max-width: 1280px) {
+
+    .Differentials{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Card_Differentials{
+        width: 200px;
+        gap:25px
+    }
+  }
+
+@media screen and (max-width: 920px) {
+    .Card_Differentials{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+}

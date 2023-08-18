@@ -97,4 +97,33 @@
     }
     
 }
+@media screen and (max-width: 1400px) {
+
+    .Plain{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .Plain img{
+        width: 320px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .Plain{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Plain img{
+        width: 370px;
+        height: 200px;
+    }
+    .Cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+
+}
 
