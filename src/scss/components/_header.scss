@@ -80,17 +80,30 @@ a:hover{
 
 @media screen and (max-width: 920px) {
     
-    .Header{
-       max-width: 800px;
-       margin: 30px auto;
-       display: flex;
-       justify-content: space-evenly;
-    }
-    .Nav{
-        display: flex;
-        justify-content: end;
-    }
-    .Nav_List a {
-        padding: 20px;
-    }
+
+    .mobile-menu {
+        position: relative;
+      
+        .menu-toggle {
+          display: block;
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+      
+        .menu-items {
+          display: none;
+          list-style: none;
+          padding: 0;
+      
+          &.open {
+            display: block;
+          }
+      
+          li {
+            padding: 10px;
+            background-color: #f0f0f0;
+          }
+        }
+      }
 }
