@@ -101,3 +101,39 @@
         }
 }
 
+@media screen and (max-width: 430px) {
+    .Entry{
+        margin: 115px auto;
+        img{
+            display: none;
+
+        }
+        .Text_Entry{
+            width: 100vw;
+            margin: 0 auto;
+        }
+
+        .Title_Entry h2{
+            
+            font-size: 2rem;
+            margin: 0 auto;
+        }
+        .Paragraph{
+            width: 100vw;
+            height: 115px;
+            margin: 20px auto;
+
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 20px;
+        
+        }
+        .Data {
+            margin: 0 auto;
+            width:100vw;
+            gap: 0;
+            
+            flex-direction: column;
+        }
+    }
+}

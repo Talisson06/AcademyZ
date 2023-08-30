@@ -118,3 +118,9 @@
     }
     
 }
+@media screen and (max-width: 430px) {
+    .Card_Differentials{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -25,7 +25,6 @@ export default function Home() {
   return (
     <div>
         <Header/>
-        <MobileMenu/>
         <Hero/>
         <Carousel/>
         <Differentials/>

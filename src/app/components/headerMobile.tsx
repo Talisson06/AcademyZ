@@ -1,4 +1,5 @@
 import '@/scss/style.scss'
+import '@/scss/components/_menumobile.scss'
 import React, { useState } from 'react';
 
 const MobileMenu = () => {

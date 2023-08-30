@@ -97,3 +97,34 @@
         margin: 50px 30px;
     }
 }
+
+@media screen and (max-width: 430px){
+    .Hero{
+        
+        flex-direction: column;
+        justify-content: center;
+        
+
+        img{
+            display: none;
+        }
+        .Presentation{
+            margin: 0;
+            width: 100vw;
+            text-align: center;
+        }
+        .Sub_Title{
+            margin: 0;
+            width: 100vw;
+        }
+        .Text{
+            margin: 0;
+            width: 100vw;
+            text-align: center;
+            padding: 15px;
+        }
+        .Button_Direct{
+            margin: 10px auto;
+        }
+    }
+}
