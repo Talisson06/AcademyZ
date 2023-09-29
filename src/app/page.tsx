@@ -12,7 +12,7 @@ import { Entry } from './components/entry';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import MobileMenu from './components/headerMobile';
+
 
 
 
