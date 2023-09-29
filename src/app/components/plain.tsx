@@ -6,7 +6,7 @@ export const Plain = () =>{
         <section className='Plain' data-aos="fade-up">
 
             <div className='Title_Plain'>
-                <h1>Planos</h1>
+                <h1>PLANOS</h1>
             </div>
             <div className='Cards'>
 
