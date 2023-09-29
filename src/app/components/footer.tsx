@@ -4,7 +4,7 @@ import '@/scss/style.scss'
 export const Footer = () => {
     return(
 
-        <footer data-aos="zoom-in-up">
+        <footer>
                 <div className='Links_Text'>
                     <a href='#'>Quem somos</a>
                     <a href='#'>AcademiaZ@Todosdireitosresevador</a>
