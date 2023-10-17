@@ -36,7 +36,7 @@
     font-size: 1rem;
     font-family: 'Caveat Brush';
     max-width: 610px;
-    color: $text-color;
+    color: $white-color;
     margin-top: 50px;
     padding-bottom: 2px;
     
@@ -45,7 +45,7 @@
     font-size: 0.9rem;
     font-family: 'Caveat Brush';
     width: 610px;
-    color: $text-color;
+    color: $white-color;
     padding-top: 5px;
     padding-bottom: 25px;
     
@@ -54,7 +54,7 @@
     font-size: 0.7rem;
     font-family: 'Sofadi One';
     width: 570px;
-    color: $text-color;
+    color: $white-color;
     padding-bottom: 30px;
     line-height: 1.5rem;
 }
@@ -63,8 +63,8 @@
     height: 50px;
     border: none;
     border-radius: 50px 50px 50px 50px;
-    background-color: $button-color;
-    color: $text-color;
+    background-color: $red-color;
+    color: $white-color;
     font-size: 1rem;
     cursor: pointer;
 }
